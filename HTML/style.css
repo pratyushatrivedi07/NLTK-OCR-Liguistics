@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header{
+    background-image:linear-gradient( rgb(48, 46, 46), rgba(139, 57, 207, 0.24)), url('dskpl.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 200%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    letter-spacing: 1px;
+    margin-top: 10%;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: 500;  
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h5{
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 30px; 
+}
+
+h5:after{
+    display: block;
+    height: 2px;
+    background-color: rgb(143, 7, 177);
+    content: " ";
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    color: #fff;
+    text-align: justify;
+}
+
+.long-copy-1{
+    line-height: 175%;
+    width: 70%;
+    margin-left: 25%;
+    color: #fff;
+    text-align: justify;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    size: 100%;
+}
+
+.main-nav{
+    margin-top: 30px;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.box{
+    padding: 1%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    text-align: justify;
+}
+
+.card-text{
+    margin-top: 10%;
+    margin-bottom:50px;
+}
+
+.btn:link,
+.btn:visited{
+    position:absolute;
+    bottom: 15px;
+    margin-top: 10px;
+   display: inline-block;
+   padding: 5px 20px;
+   text-decoration: none;
+   border-radius: 200px;
+   color: rgb(93, 18, 163);
+   font-weight: 250;
+   border: 1px solid rgb(123, 9, 175); 
+   transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active{
+   color: #fff;
+   background-color: rgb(132, 7, 182); 
+}
+
+.btn_t{
+    margin-bottom: 50px;
+}
+
+.card-text p{
+    font-size: 90%;
+    line-height: 145%;
+    text-align: right;
+}

@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Morphology Linguistics</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{% static 'grid.css'%}">
+        <link rel="stylesheet" href="{% static 'style.css'%}">
+        <link rel="icon" type="image/png" href="{%static 'lt.png' %}">
+  </head>
+    <body>
+        <header class="main">
+            <nav class="navbarm navbar-toggler fixed-top">
+              <img src="{% static 'lt.png' %}" href="/button1/" alt="Morphology Linguistics" class="logom">
+            </nav>
+
+            <div class="row">
+                <h1 class="heading">Morphology Linguistics</h1>
+                <p class="long-copy">
+                    Hello, we're Morphology Linguistics, providing you with various text-based features.<br> 
+                    Do you have any text which you want to extract, summarize or translate?</p>
+                <p class="long-copy-1">Let us take care of that for you. We'll do a good, we promise!</p>
+                </p>
+            </div>
+        </header>
+
+        <section class="def">
+            <div class="row">
+              <div class="card col span-1-of-4 box" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-titlec">Text Extraction</h5>
+                    <p class="card-text">Have an image of the document and want to retrieve text from it?
+                      Text Extraction does the work for you. Simply upload the image of the document and get the text in formattable form.</p>
+                    <a href="/upload/" class="btnl btn-sm">Launch</a>
+                </div>
+              </div>
+
+              <div class="card col span-1-of-4 box" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-titlec">Translation</h5>
+                    <p class="card-text">Want to translate the document or text into another language? 
+                      Translation helps you to do that. Enter the text or upload a document and select the language into which you want to translate.</p>
+                  <a href="/transf/" class="btnl btn-sm">Launch</a>
+                </div>
+              </div>
+
+              <div class="card col span-1-of-4 box" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-titlec">Grammar Check</h5>
+                    <p class="card-text">Want to check for spellings or grammatical errors? 
+                      Grammar Check will do that for you and provide you with grammatically correct sentences. Just type in the text or upload the document.</p>
+                  <a href="/spellc/" class="btnl btn-sm">Launch</a>
+                </div>
+              </div>
+
+              <div class="card col span-1-of-4 box" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-titlec">Summarization</h5>
+                    <p class="card-text">Have a really long eassay or article with you and no time to read it fully? 
+                      Use summarization to reduce the essay/article into a small paragraph of 15-20 lines. Now, you can read it anywhere.</p>
+                    <a href="/summ/" class="btnl btn-sm">Launch</a>
+                </div>
+              </div>  
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.\'a0
+\f1\b Machine learning focuses on the development of computer programs
+\f0\b0 \'a0that can access data and use it learn for themselves.\
+The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide.\'a0
+\f1\b The primary aim is to allow the computers learn automatically
+\f0\b0 \'a0without human intervention or assistance and adjust actions accordingly.\
+\pard\pardeftab720\sl360\sa360\partightenfactor0
+\cf2 Some machine learning methods\
+\pard\pardeftab720\sl420\sa360\partightenfactor0
+\cf2 Machine learning algorithms are often categorized as supervised or unsupervised.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl420\sa120\partightenfactor0
+\ls1\ilvl0
+\f1\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Supervised machine learning algorithms\'a0
+\f0\b0 can apply what has been learned in the past to new data using labeled examples to predict future events. Starting from the analysis of a known training dataset, the learning algorithm produces an inferred function to make predictions about the output values. The system is able to provide targets for any new input after sufficient training. The learning algorithm can also compare its output with the correct, intended output and find errors in order to modify the model accordingly.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl420\sa120\partightenfactor0
+\ls1\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 In contrast,\'a0
+\f1\b unsupervised machine learning algorithms\'a0
+\f0\b0 are used when the information used to train is neither classified nor labeled. Unsupervised learning studies how systems can infer a function to describe a hidden structure from unlabeled data. The system doesn\'92t figure out the right output, but it explores the data and can draw inferences from datasets to describe hidden structures from unlabeled data.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl420\sa120\partightenfactor0
+\ls1\ilvl0
+\f1\b \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Semi-supervised machine learning algorithms
+\f0\b0 \'a0fall somewhere in between supervised and unsupervised learning, since they use both labeled and unlabeled data for training \'96 typically a small amount of labeled data and a large amount of unlabeled data. The systems that use this method are able to considerably improve learning accuracy. Usually, semi-supervised learning is chosen when the acquired labeled data requires skilled and relevant resources in order to train it / learn from it. Otherwise, acquiringunlabeled data generally doesn\'92t require additional resources.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl420\partightenfactor0
+\ls1\ilvl0
+\f1\b \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Reinforcement machine learning algorithms\'a0
+\f0\b0 is a learning method that interacts with its environment by producing actions and discovers errors or rewards. Trial and error search and delayed reward are the most relevant characteristics of reinforcement learning. This method allows machines and software agents to automatically determine the ideal behavior within a specific context in order to maximize its performance. Simple reward feedback is required for the agent to learn which action is best; this is known as the reinforcement signal.\cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \cb3 Machine learning enables analysis of massive quantities of data. While it generally delivers faster, more accurate results in order to identify profitable opportunities or dangerous risks, it may also require additional time and resources to train it properly. Combining machine learning with AI and cognitive technologies can make it even more effective in processing large volumes of information.\
+}
+

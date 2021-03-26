@@ -1,0 +1,44 @@
+1, The CIA Triad
+
+Confidentiality : Confidentiality means keeping things hidden. One particular method of
+confidentiality that you probably use everyday is password protection. For
+confidentiality to work, you need to limit access to your data. Only those who
+absolutely need to know how to gain access, should.
+
+Integrity : Integrity means keeping our data accurate and untampered with. The data
+that we send or receive should remain the same throughout its entire journey.
+Availability : Availability means that the information we have is readily accessible to
+the people that should have it.
+
+   
+
+* Every aspect of security revolves around these three key principles: Confidentiality,
+Integrity and Availability.
+
+2. Essential Security Terms
+
+Risk : The possibility of suffering a loss in the event of an attack on the system.
+Vulnerability : A flaw in the system that could be exploited to compromise the
+system. Vulnerabilities can be holes that you may or may not be aware of.
+
+- Eg: When you're writing a web app and enable a de-bug account for
+
+testing during development but forget to disable it before launching the app. You
+
+now have a vulnerability in your app that an attacker can potentially discover.
+
+* There's a special type of vulnerability called 0-day Vulnerability or 0-day
+
+ 
+
+0-day Vulnerability : It is a vulnerability that is not known to the software developer
+or vendor, but is known to an attacker. The name refers to the amount of time the
+software vendor has to react and to fix the vulnerability i.e. zero days.
+
+Exploit : Software that is used to take advantage of a security bug or vulnerability.
+Attackers will write up exploits for vulnerabilities they find in software to cause harm
+to the system.
+- Eg :- Let's say the attacker discovers a zero day vulnerability. She decides to
+take advantage of the previously unknown bug and writes a zero day exploit
+code. That code will specifically target and take advantage of this unknown bug
+to gain access and cause damage to the systems.

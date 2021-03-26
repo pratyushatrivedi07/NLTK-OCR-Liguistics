@@ -1,0 +1,107 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="trans">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Morphology Linguistics</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+        crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="{% static 'grid.css'%}">
+        <link rel="stylesheet" href="{% static 'style.css'%}">
+        <link rel="icon" type="image/png" href="{%static 'lt.png' %}">
+    </head>
+    <body  class="trans">
+        <header>
+
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+                <a href="/button1/"><img src="{% static 'lt.png' %}" alt="Morphology Linguistics" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/upload/">Text Extraction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/transf/">Translation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/spellc/">Grammar Check</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/summ/">Summarization</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="card col tr span-1-of-4 box" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'french.jpg' %}" alt="French">
+                    <div class="card-body">
+                        <h5 class="card-title">French</h5>
+                        <form action="/transf/" method="POST">
+                        {% csrf_token %}
+                        <textarea type="text" class="form-control" placeholder="Enter Text" rows="4" cols="18" name="param2" required></textarea><br>
+                           {{data_external}}
+                           <p>{{textf}}</p>
+                           <button class="btnt" onclick="location.href='(% url 'views.transf' %)' ">French</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card col tr span-1-of-4 box" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'hindi.jpg' %}" alt="Hindi">
+                    <div class="card-body">
+                        <h5 class="card-title">Hindi</h5>
+                        <form action="/transh/" method="POST">
+                        {% csrf_token %}
+                        <textarea type="text" class="form-control" placeholder="Enter Text" rows="4" cols="18" name="param2" required></textarea><br>
+                           {{data_external}}
+                           <p>{{texth}}</p>
+                           <button class="btnt" onclick="location.href='(% url 'views.transh' %)' ">Hindi</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card col tr span-1-of-4 box" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'spanish.jpg' %}" alt="Spanish">
+                    <div class="card-body">
+                        <h5 class="card-title">Spanish</h5>
+                        <form style="margin-top: 5px;" action="/transs/" method="POST">
+                            {% csrf_token %}
+                            <textarea type="text" class="form-control" placeholder="Enter Text" rows="4" cols="18" name="param2" required></textarea><br>
+                               {{data_external}}
+                               <p>{{texts}}</p>
+                               <button class="btnt" onclick="location.href='(% url 'views.transs' %)' ">Spanish</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card col tr span-1-of-4 box" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'german.jpg' %}" alt="German">
+                    <div class="card-body">
+                        <h5 class="card-title">German</h5>
+                        <form action="/transg/" method="POST">
+                            {% csrf_token %}
+                            <textarea type="text" class="form-control" placeholder="Enter Text" rows="4" cols="18" name="param2" required></textarea><br>
+                               {{data_external}}
+                               <p>{{textg}}</p>
+                               <button class="btnt" onclick="location.href='(% url 'views.transg' %)' ">German</button>
+                        </form>            
+                    </div>
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
