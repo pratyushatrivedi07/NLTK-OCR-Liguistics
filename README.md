@@ -1,1 +1,0 @@
-# NLTK-OCR-Liguistics
