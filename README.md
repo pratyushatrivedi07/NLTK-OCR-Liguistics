@@ -1,5 +1,5 @@
 # NLTK-OCR-Liguistics
-This system is totally based on providing text-based functionalities on a single platform. Each module represents features such as extraction of text from an image, translation of the text to other languages, summarization and grammar checking and are combined for user’s ease. Below each of these functionalities, the framework and the techniques are briefed as follows:
+This system is totally based on providing text-based functionalities on a single platform. Each module represents features such as:
 1. **Text Extraction from An Image**
 2. **Summarization**
 3. **Text Translation**
